@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2> Hello JSP </h2>
+	${num1} + {$num2} = ${add}
 </body>
 </html>
