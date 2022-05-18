@@ -1,18 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>서블릿</title>
 </head>
 <body>
-<h3> get ��Ŀ��� �ѱ۱��� ���� </h3>
+<h3> get 방식에서 한글깨짐 방지 </h3>
 <form method="get"  action="InfoServlet">
-	�̸�: <input type="text" value="name"><br>
-	�ּ�: <input type="text" value="addr"><br>
-<input type="submit" value="����">
+	이름: <input type="text" name="name"><br>
+	주소: <input type="text" name="addr"><br>
+<input type="submit" value="전송">
 </form>
-
+<br>
+<h3> post 방식에서 한글깨짐 방지</h3>
+<form method="post" action="InfoServlet">
+	이름: <input type="text" name="name"><br>
+	주소: <input type="text" name="addr"><br>
+	<input type="submit" value="전송">
+</form>
 </body>
 </html>
