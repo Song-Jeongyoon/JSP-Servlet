@@ -10,7 +10,7 @@
 <form method="get" action="SelectServlet">
 	<span style="float: left;margin-right: 20px">
 		<label for="age">나이</label>
-		<select id="age" name="age" size="3">
+		<select id="age" name="age" size="1">
 			<option value="">선택하세요</option>
 			<option value="10세 이하">10세 이하</option>
 			<option value="11~15세">11~15세</option>
@@ -23,7 +23,7 @@
 		</span>	
 		
 		<label for="interest" style="float: left;">관심분야</label>
-		<select id="interest" name="interest" size="5">
+		<select id="interest" name="interest" size='5' multiple="multiple">
 			<option value="">선택하세요</option>
 			<option value="영화/드라마">영화/드라마</option>
 			<option value="뮤지컬/연극">뮤지컬/연극</option>
@@ -33,7 +33,7 @@
 			<option value="무용/댄스">무용/댄스</option>
 		</select>
 		<br><br>
-		<inpyt type="submit" value="전송">
+		<input type="submit" value="전송">
 			
 </form>
 </body>
