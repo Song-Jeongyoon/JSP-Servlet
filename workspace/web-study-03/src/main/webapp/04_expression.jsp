@@ -2,10 +2,10 @@
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <%!
-	String str = "¼±¾ð¹®À¸·Î Àý´ñ°ª ±¸ÇÏ±â";
-	int a = 5, b = -5;
+	String str = "Ç¥Çö½Ä »ç¿ëÇÏ¿© Àý´ñ°ª ±¸ÇÏ±â";
+	int a= 3, b = -3;
 	
-	public int abs(int n) {
+	public int abs(int n){
 		if(n < 0) {
 			n = -n;
 		}
@@ -18,10 +18,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	out.print(str + "<br>");
-	out.print(a + "ÀÇ Àý´ñ°ª = " + abs(a) + "<br>");
-	out.print(b + "ÀÇ Àý´ñ°ª = " + abs(b) + "<br>");
-%>
+<%= str%> <br>
+<%= a  %>ÀÇ Àý´ñ°ª <%= abs(a) %> <br>
+<%= b  %>ÀÇ Àý´ñ°ª <%= abs(b) %> <br>
 </body>
 </html>
