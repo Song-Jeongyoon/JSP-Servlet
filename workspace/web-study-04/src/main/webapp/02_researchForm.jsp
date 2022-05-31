@@ -24,7 +24,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td> 가장 많이 사용하는 OTT플랫폼 : </td>
+			<td> 선호하는 OTT플랫폼 : </td>
 			<td>
 			<input type="checkbox" name="ott" value="1"> 넷플릭스
 			<input type="checkbox" name="ott" value="2"> 왓챠
