@@ -14,7 +14,8 @@ import javax.servlet.http.HttpServletResponse;
 public class SelectServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) 
+			throws ServletException, IOException {
 		String age = request.getParameter("age");
 		String interests[] = request.getParameterValues("interest");
 		
